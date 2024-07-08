@@ -1,0 +1,28 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.construction-container {
+    text-align: center;
+}
+
+.construction-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.construction-image {
+    max-width: 100%;
+    max-height: 300px; /* Limitando la altura máxima */
+    height: auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+}
